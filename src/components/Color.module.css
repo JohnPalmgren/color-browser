@@ -1,0 +1,29 @@
+.pageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    height: 300px;
+    width: 220px;
+}
+
+.colorBox {
+    width: 220px;
+    height: 150px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 .5rem 0;
+    word-wrap: break-word;
+    width: 220px;
+}
